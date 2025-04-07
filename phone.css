@@ -1,6 +1,7 @@
 .nav_bar li:first-child{
     position: relative;
 }
+
 .goods{
     width: 100%;
     position: absolute;
