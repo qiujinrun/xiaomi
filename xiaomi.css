@@ -175,6 +175,7 @@
     padding: 0 10px;
 }
 
+
 .search{
     float: right;
     width: 296px;
@@ -216,6 +217,16 @@
     display: none;
     z-index: 10;
 }
+.nav_bar_list_phone p.name{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.nav_bar_list_phone p.price{
+    font-size: 12px;
+    margin-top: 1px;
+    color: #ff6700;
+}
+
 .nav_bar li:hover>.nav_bar_list_phone{
     display: block;
 }
@@ -232,6 +243,16 @@
     display: none;
     z-index: 10;
 }
+.nav_bar_list_tv p.name{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.nav_bar_list_tv p.price{
+    font-size: 12px;
+    margin-top: 1px;
+    color: #ff6700;
+}
+
 .nav_bar li:hover>.nav_bar_list_tv{
     display: block;
 }
@@ -531,14 +552,16 @@
     z-index: 10;
 }
 .title-box-right li{
-    height: 58px;
-    width: 50px;
+    height: 22px;
+    /* width: 50px; */
     float: right;
     color: #333;
-    font-size: 22px;
-    line-height: 58px;
+    /* font-size: 22px; */
+    line-height: 22px;
     font-weight: 200px;
     margin-left: 10px;
+    margin-top: 18px;
+    padding: 2px;
 }
 /* .title-box-right li a{
     color: #ff6700;
@@ -628,7 +651,7 @@
 
 .title-box-right li.li-active{
     color: #ff6700;
-    border-bottom:3px solid #ff6700 ;
+    border-bottom:2px solid #ff6700 ;
 }
 .totalbox div.elc-active{
     display: block;
